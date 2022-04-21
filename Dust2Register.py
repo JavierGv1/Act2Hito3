@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome(executable_path="chromedriver")
 driver.maximize_window()
-driver.get("https://yopmail.com/es/email-generato")
+driver.get("https://yopmail.com/es/email-generator")
 
 email = driver.find_element(By.ID,"egen").text
 split = email.split('@')
