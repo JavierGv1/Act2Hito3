@@ -36,7 +36,7 @@ newpsw = ''.join(random.choice(letras) for i in range(20))
 
 newline= email+','+newpsw
 
-driver = webdriver.Chrome(executable_path="chromedriver")
+driver = webdriver.Chrome(executable_path="./chromedriver")
 driver.maximize_window()
 
 

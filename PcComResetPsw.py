@@ -38,7 +38,7 @@ options.add_argument("start-maximized")
 options.add_argument("--headless")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
-driver = webdriver.Chrome(options=options, executable_path=r"chromedriver")
+driver = webdriver.Chrome(options=options, executable_path=r"./chromedriver")
 stealth(driver,
         languages=["en-US", "en"],
         vendor="Google Inc.",

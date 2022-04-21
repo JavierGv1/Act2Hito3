@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome(executable_path="chromedriver")
+driver = webdriver.Chrome(executable_path="./chromedriver")
 driver.maximize_window()
 driver.get("https://yopmail.com/es/email-generator")
 

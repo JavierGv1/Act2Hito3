@@ -11,7 +11,7 @@ split = line.split(',')
 email = split[0]
 psw = split[1]
 
-driver = webdriver.Chrome(executable_path="chromedriver")
+driver = webdriver.Chrome(executable_path="./chromedriver")
 driver.maximize_window()
 driver.get("https://dust2.gg/mi-cuenta/")
 
