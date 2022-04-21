@@ -9,7 +9,6 @@ Actividad 2 - Hito 3 Criptografia y seguridad en redes
 > - Restablecimiento de contraseña (no requiere login del usuario).
 > - Modificación de contraseña (requiere login del usuario).
 > 
-_________________
 
 ## Desarrollo del Hito
 - Para la creación de la automatizacion se utilizo `python` junto con una libreria llamanda `selenium`.
