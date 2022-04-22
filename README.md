@@ -26,7 +26,7 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
   - El archivo **Dust2Login** realiza un inicio de sesion en la pagina con un usuario aleatorio desde el archivo de texto.
   - De igual forma **Dust2ResetPsw**, realiza un cambio de contraseña de un usuario perteneciente al archivo de texto. La nueva contraseña a utilizar se genera de manera aleatoria, con un largo especifico de 20 caracteres y se reemplaza por la contraseña anterior en **UsersD2**. A su vez, debido a requisitos de la pagina, a este usuario se le debe registar un nombre y apellido para realizar el cambio de contraseña siempre y cuando no se halla ingresado anteriormente. De ser así, se le registra con el nombre de Bender Bendig Rodriguez. 
   - Como ultimo punto, **Dust2ResetPswMail** realiza una solicitud de cambio de contraseña mediante correo electronico. 
-![Cambio de contraseña via correo electronico](Pagina Chilena/ResetPswMail.png)
+![Cambio de contraseña via correo electronico](Pagina_Chilena/ResetPswMail.png)
 
 ### Pagina Europea 
 
