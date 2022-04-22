@@ -30,5 +30,5 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
 
 ### Pagina Europea 
 
-- Primeramente se utilizo [PcComponentes](https://www.pccomponentes.com/), pero durante el desarrollo se la actividad, se dio cuenta que la pagina posee el servicio de **Cloudflare**, el cual impedia el funcionamentio del codigo. Esto lo hacia mediante la nula carga de la pagina o el requerimiento de responder un Captcha.
+- Primeramente se utilizo [PcComponentes](https://www.pccomponentes.com/), pero durante el desarrollo se la actividad, se dio cuenta que la pagina posee el servicio de **Cloudflare**, el cual impedia el funcionamentio del codigo. Esto lo hacia mediante la nula carga de la pagina o el requerimiento de responder un Captcha. De igual forma, en el repositorio de encuentran los codigos implementados para esta pagina.
 - Ante este problema, se decidio realizar un cambio de la pagina por ...
