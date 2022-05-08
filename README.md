@@ -36,4 +36,7 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
   - Primero se debe ejecutar el archivo **CreuRegister**, ya que este se registra en la pagina y en archivo de texto **UsersCreu** guarda el correo y la contraseña de este usuario.
   - Posteriormente, ya se pueden ejecutar el resto de archivos sin ningun mayor problema.
   - El archivo **CreuLogin** realiza un inicio de sesion en la pagina con un usuario aleatorio desde el archivo de texto.
-  - 
+  - De igual forma **CreuResetPsw**, realiza un cambio de contraseña de un usuario perteneciente al archivo de texto. La nueva contraseña a utilizar se genera de manera aleatoria, con un largo especifico de 20 caracteres y se reemplaza por la contraseña anterior en **UsersCreu**.
+  - Como ultimo punto, **CreuResetPswMail** realiza una solicitud de cambio de contraseña mediante correo electronico.
+ 
+ ![Cambio de contraseña via correo electronico](PaginaEuropea/ResetPswMail.png)
