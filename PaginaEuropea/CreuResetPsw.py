@@ -65,7 +65,9 @@ driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/sectio
 
 driver.find_element(By.XPATH,"//*[@id='cookieNoticeContent']/table/tbody/tr[1]/td[2]/span").click()
 
-element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"/html/body/main/section/div/div/div/section/section/form/footer/button")))
-driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/footer/button").click()
+WebDriverWait(driver, 20).until(EC.invisibility_of_element((By.CLASS_NAME, "closeButtonNormal")))
+element = Wait5.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#customer-form > footer > button")))
+driver.find_element(By.XPATH,"//*[@id='customer-form']/section/div[7]/div[1]/span/label").click()
+driver.find_element(By.XPATH,"//*[@id='customer-form']/footer/button").click()
 
 #replace("UsersD2.txt",line,newline)
