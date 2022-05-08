@@ -31,5 +31,9 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
 
 ### Pagina Europea 
 
-- Primeramente se utilizo [PcComponentes](https://www.pccomponentes.com/), pero durante el desarrollo se la actividad, se dio cuenta que la pagina posee el servicio de **Cloudflare**, el cual impedia el funcionamentio del codigo. Esto lo hacia mediante la nula carga de la pagina o el requerimiento de responder un Captcha. De igual forma, en el repositorio de encuentran los codigos implementados para esta pagina.
-- Ante este problema, se decidio realizar un cambio de la pagina por ...
+-La pagina Europea utilizada fue [Creu](https://www.creushop.com/es/), la cual se encuentra sitiada en España.
+-Al igual que en el caso de la Pagina Chilena:
+  - Primero se debe ejecutar el archivo **CreuRegister**, ya que este se registra en la pagina y en archivo de texto **UsersCreu** guarda el correo y la contraseña de este usuario.
+  - Posteriormente, ya se pueden ejecutar el resto de archivos sin ningun mayor problema.
+  - El archivo **CreuLogin** realiza un inicio de sesion en la pagina con un usuario aleatorio desde el archivo de texto.
+  - 
