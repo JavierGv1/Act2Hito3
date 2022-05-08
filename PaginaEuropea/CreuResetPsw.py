@@ -1,9 +1,13 @@
 import random
+import string
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from tempfile import mkstemp
+from shutil import move, copymode
+from os import fdopen, remove
 
 def replace(file_path, Avengers, Finxters):
    fd, abs_path = mkstemp()
@@ -58,7 +62,10 @@ driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/sectio
 element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"/html/body/main/section/div/div/div/section/section/form/section/div[4]/div[1]/div/input")))
 driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/section/div[4]/div[1]/div/input").send_keys(psw)
 driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/section/div[5]/div[1]/div/input").send_keys(newpsw)
-driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/section/div[7]/div[1]/span/label/input").click()
-driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/footer/button").click()
 
-replace("UsersD2.txt",line,newline)
+driver.find_element(By.XPATH,"//*[@id='cookieNoticeContent']/table/tbody/tr[1]/td[2]/span").click()
+
+element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"//*[@id='customer-form']/footer/button")))
+driver.find_element(By.XPATH,"//*[@id='customer-form']/footer/button").click()
+
+#replace("UsersD2.txt",line,newline)
