@@ -65,7 +65,7 @@ driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/sectio
 
 driver.find_element(By.XPATH,"//*[@id='cookieNoticeContent']/table/tbody/tr[1]/td[2]/span").click()
 
-element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"//*[@id='customer-form']/footer/button")))
-driver.find_element(By.XPATH,"//*[@id='customer-form']/footer/button").click()
+element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"/html/body/main/section/div/div/div/section/section/form/footer/button")))
+driver.find_element(By.XPATH,"/html/body/main/section/div/div/div/section/section/form/footer/button").click()
 
 #replace("UsersD2.txt",line,newline)
