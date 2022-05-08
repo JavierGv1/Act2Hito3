@@ -11,7 +11,6 @@ driver.get("https://yopmail.com/es/email-generator")
 email = driver.find_element(By.ID,"egen").text
 split = email.split('@')
 psw = split[0]
-psw = psw.capitalize()
 Wait5 = WebDriverWait(driver,5)
 Wait20 = WebDriverWait(driver,20)
 driver.get("https://www.creushop.com/es/")
