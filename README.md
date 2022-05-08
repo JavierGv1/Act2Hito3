@@ -30,6 +30,7 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
 ![Cambio de contraseña via correo electronico](PaginaChilena/ResetPswMail.png)
 
 ### Pagina Europea 
+===============
 
 - La pagina Europea utilizada fue [Creu](https://www.creushop.com/es/), la cual se encuentra sitiada en España.
 - Al igual que en el caso de la Pagina Chilena:
