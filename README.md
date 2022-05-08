@@ -31,8 +31,8 @@ Actividad 2 - Hito 3: Criptografia y seguridad en redes
 
 ### Pagina Europea 
 
--La pagina Europea utilizada fue [Creu](https://www.creushop.com/es/), la cual se encuentra sitiada en España.
--Al igual que en el caso de la Pagina Chilena:
+- La pagina Europea utilizada fue [Creu](https://www.creushop.com/es/), la cual se encuentra sitiada en España.
+- Al igual que en el caso de la Pagina Chilena:
   - Primero se debe ejecutar el archivo **CreuRegister**, ya que este se registra en la pagina y en archivo de texto **UsersCreu** guarda el correo y la contraseña de este usuario.
   - Posteriormente, ya se pueden ejecutar el resto de archivos sin ningun mayor problema.
   - El archivo **CreuLogin** realiza un inicio de sesion en la pagina con un usuario aleatorio desde el archivo de texto.
