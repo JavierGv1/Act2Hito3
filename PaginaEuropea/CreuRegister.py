@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-
 driver = webdriver.Chrome(executable_path="./chromedriver")
 driver.maximize_window()
 driver.get("https://yopmail.com/es/email-generator")
@@ -39,6 +38,3 @@ sleep(5)
 BD = open("UsersCreu.txt","a")
 BD.write(email+','+psw+'\n')
 BD.close()
-
-element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"/html/body/main/header/div/div[2]/div/div/div[3]/div[3]/a/i")))
-driver.find_element(By.XPATH,"/html/body/main/header/div/div[2]/div/div/div[3]/div[3]/a/i").click()

@@ -32,5 +32,3 @@ driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[2]/div[1]/div[1]/for
 
 sleep(3)
 
-element = Wait5.until(EC.element_to_be_clickable((By.XPATH,"/html/body/main/header/div/div[2]/div/div/div[3]/div[3]/a/i")))
-driver.find_element(By.XPATH,"/html/body/main/header/div/div[2]/div/div/div[3]/div[3]/a/i").click()
