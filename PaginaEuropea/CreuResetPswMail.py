@@ -1,5 +1,6 @@
 import random
 import string
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -41,3 +42,7 @@ driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[2]/div[1]/div[1]/div
 
 pagina = 'https://yopmail.com/es/?login='+correo
 driver.execute_script("window.open('"+pagina+"')")
+
+sleep(3)
+
+driver.quit()

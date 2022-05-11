@@ -30,3 +30,7 @@ driver.find_element(By.ID,"user_login").send_keys(Keys.ENTER)
 
 pagina = 'https://yopmail.com/es/?login='+correo
 driver.execute_script("window.open('"+pagina+"')")
+
+sleep(3)
+
+driver.quit()

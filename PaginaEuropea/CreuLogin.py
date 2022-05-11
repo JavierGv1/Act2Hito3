@@ -32,3 +32,4 @@ driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[2]/div[1]/div[1]/for
 
 sleep(3)
 
+driver.quit()

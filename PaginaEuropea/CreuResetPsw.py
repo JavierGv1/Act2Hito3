@@ -70,4 +70,8 @@ element = Wait5.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#customer-for
 driver.find_element(By.XPATH,"//*[@id='customer-form']/section/div[7]/div[1]/span/label").click()
 driver.find_element(By.XPATH,"//*[@id='customer-form']/footer/button").click()
 
+sleep(3)
+
+driver.quit()
+
 replace("UsersCreu.txt",line,newline)

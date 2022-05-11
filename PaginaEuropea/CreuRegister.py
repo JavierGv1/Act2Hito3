@@ -33,7 +33,9 @@ driver.find_element(By.XPATH,"//*[@id='index']/div[1]/div/div/div[2]/div[1]/div[
 driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[2]/div[1]/div[2]/form/div[7]/input").click()
 driver.find_element(By.XPATH,"/html/body/div[1]/div/div/div[2]/div[1]/div[2]/form/div[8]/button/span[2]").click()
 
-sleep(5)
+sleep(3)
+
+driver.quit()
 
 BD = open("UsersCreu.txt","a")
 BD.write(email+','+psw+'\n')
